@@ -1,5 +1,5 @@
 PROGRAM_OBJ=server1.o client1.o
-PROGRAM_OUT=server1 client1 server2 client2 task4
+PROGRAM_OUT=server1 client1 server2 client2 task4 task5
 PROGRAM_C=server1.c client1.c
 
 program: $(PROGRAM_OUT)
@@ -19,6 +19,9 @@ client2:
 
 task4:
 	gcc -pthread -lrt -Wall -Wextra --std=gnu99 -pedantic -Werror task4.c -o task4
+
+task5:
+	gcc -pthread -lrt -Wall -Wextra --std=gnu99 -pedantic -Werror task5.c -o task5
 
 clean:
 	rm -f $(PROGRAM_OUT)
