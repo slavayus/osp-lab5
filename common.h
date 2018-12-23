@@ -5,6 +5,7 @@
 #include <time.h>
 
 #define KEY 100
+const char *filename = "/tmp/temp_data";
 
 typedef struct {
     pid_t pid;
