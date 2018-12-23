@@ -18,7 +18,7 @@ client2:
 	gcc -Wall -Wextra --std=gnu99 -pedantic -Werror client2.c -o client2
 
 task4:
-	gcc -pthread -Wall -Wextra --std=gnu99 -pedantic -Werror task4.c -o task4
+	gcc -pthread -lrt -Wall -Wextra --std=gnu99 -pedantic -Werror task4.c -o task4
 
 clean:
 	rm -f $(PROGRAM_OUT)
