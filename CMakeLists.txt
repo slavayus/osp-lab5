@@ -3,4 +3,4 @@ project(lab5 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(lab5 main.c)
+add_executable(lab5 server1.c common.h client1.c)
