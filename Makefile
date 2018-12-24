@@ -1,5 +1,5 @@
 PROGRAM_OBJ=server1.o client1.o
-PROGRAM_OUT=server1 client1 server2 client2 task4 task5 server8 client8
+PROGRAM_OUT=server1 client1 server2 client2 task4 task5 server8 client8 server9
 PROGRAM_C=server1.c client1.c
 
 program: $(PROGRAM_OUT)
