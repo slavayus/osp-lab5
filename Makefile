@@ -29,5 +29,8 @@ server8:
 client8:
 	gcc -Wall -Wextra --std=gnu99 -pedantic -Werror client8.c -o client8
 
+server9:
+	gcc -Wall -Wextra --std=gnu99 -pedantic -Werror server9.c -o server9
+
 clean:
 	rm -f $(PROGRAM_OUT)
